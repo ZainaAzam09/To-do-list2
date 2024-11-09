@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.container{
+    height: 90vh;
+    width: 70vh;
+    margin: 40px auto;
+    background-color: #cdd5d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-screen{
+    height: 90%;
+    width: 90%;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    box-shadow: 7px 13px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+.input-text{
+    outline: none;
+    padding: 10px 8px;
+    display: block;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    font-size: 18px;
+    color: #7e1946;
+    font-family: "Ubuntu";
+    font-weight: 600;
+    flex-grow: 2;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+
+::placeholder{
+    font-size: 20px;
+    color: #7e1946;
+    font-family: "Ubuntu";
+    font-weight: 600;
+}
+.new-item{
+    width: 95%;
+    height: 57px;
+    background-color: #7e1946;
+    margin: 14px auto;
+    border: 2px solid #7e1946;
+    border-radius: 34px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.after-check{
+    background-color: rgb(14 165 14 / 87%);
+    border: 2px solid rgb(14 165 14 / 87%);
+}
+.text-strike-through{
+    text-decoration:line-through;
+}
+.new-item p{
+    width: 80%;
+    font-family: "Ubuntu";
+    color: white;
+}
+.check-icon{
+    color: white;
+}
+.check-clr-chng{
+    color: yellow;
+}
+.del-icon{
+    color: white;
+}
+.check-btn{
+    all: unset;
+}
+.del-btn{
+    all: unset;
+}
+.notepad-icon{
+    width: 50px;
+    height: 50px;
+    background-image: url(Paomedia-Small-N-Flat-Notepad.512.png);
+    background-size: cover;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+h2{
+    width: 80%;
+    font-size: 2rem;
+    color: #7e1946;
+    font-family: "Ubuntu";
+    font-weight: 600;
+}
+.input-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 36px;
+    margin: 15px 10px;
+    height: 10%;
+    box-shadow: inset 0 0 0 4px #cdd5d1;
+    padding: 4px;
+}
+.add-button{
+    outline: none;
+    width: 26%;
+    font-size: 23px;
+    color: white;
+    font-family: "Ubuntu";
+    font-weight: 600;
+    height: 73px;
+    background-color: #7e1946;
+    border: 2px solid #7e1946;
+    border-radius: 30px;
+}
+.input-area:focus-within { 
+    outline: 1px solid #7e1946 
+  }
+
